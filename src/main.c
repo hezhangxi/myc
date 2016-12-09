@@ -64,9 +64,9 @@ int main(void)
    // enumc();
 
    // isalphac();
-    // forc();
+    forc();
 
-   chickenc();
+   //chickenc();
    // graph();
 
 }
