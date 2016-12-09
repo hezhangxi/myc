@@ -66,7 +66,7 @@ int main(void)
    // isalphac();
     forc();
 
-   //chickenc();
+   chickenc();
    // graph();
 
 }
