@@ -67,7 +67,7 @@ int main(void)
     // forc();
 
    // chickenc();
-    graph();
+   // graph();
 
 }
 
