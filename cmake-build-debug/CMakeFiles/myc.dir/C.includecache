@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hezhangxi/ClionProjects/myc/header/myfuc.h
+
+/home/hezhangxi/ClionProjects/myc/src/cal.c
+stdio.h
+-
+
+/home/hezhangxi/ClionProjects/myc/src/enumc.c
+stdio.h
+-
+
+/home/hezhangxi/ClionProjects/myc/src/main.c
+stdio.h
+-
+../header/myfuc.h
+/home/hezhangxi/ClionProjects/myc/header/myfuc.h
+
+/home/hezhangxi/ClionProjects/myc/src/printstar.c
+stdio.h
+-
+zconf.h
+-
+
+/home/hezhangxi/ClionProjects/myc/src/switch.c
+stdio.h
+-
+

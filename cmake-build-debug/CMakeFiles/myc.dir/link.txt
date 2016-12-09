@@ -1,0 +1,1 @@
+/usr/bin/cc  -g   CMakeFiles/myc.dir/src/printstar.c.o CMakeFiles/myc.dir/src/main.c.o CMakeFiles/myc.dir/src/cal.c.o CMakeFiles/myc.dir/src/switch.c.o CMakeFiles/myc.dir/src/enumc.c.o  -o myc 
