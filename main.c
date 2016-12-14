@@ -63,10 +63,9 @@ int main(void)
     //switchc(i);
    // enumc();
 
-   // isalphac();
+   isalphac();
    // forc();
-
-//   chickenc();
+   //	chickenc();
    // graph();
 
 }
