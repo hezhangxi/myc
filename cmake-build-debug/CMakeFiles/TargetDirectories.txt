@@ -1,0 +1,3 @@
+/home/martin/ClionProjects/myc/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/martin/ClionProjects/myc/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/martin/ClionProjects/myc/cmake-build-debug/CMakeFiles/myc.dir
