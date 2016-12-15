@@ -8,7 +8,6 @@ set(CMAKE_DEPENDS_CHECK_C
   "/home/hezhangxi/ClionProjects/myc/src/cal.c" "/home/hezhangxi/ClionProjects/myc/cmake-build-release/CMakeFiles/myc.dir/src/cal.c.o"
   "/home/hezhangxi/ClionProjects/myc/src/enumc.c" "/home/hezhangxi/ClionProjects/myc/cmake-build-release/CMakeFiles/myc.dir/src/enumc.c.o"
   "/home/hezhangxi/ClionProjects/myc/src/for.c" "/home/hezhangxi/ClionProjects/myc/cmake-build-release/CMakeFiles/myc.dir/src/for.c.o"
-  "/home/hezhangxi/ClionProjects/myc/src/graph.c" "/home/hezhangxi/ClionProjects/myc/cmake-build-release/CMakeFiles/myc.dir/src/graph.c.o"
   "/home/hezhangxi/ClionProjects/myc/src/isalpha.c" "/home/hezhangxi/ClionProjects/myc/cmake-build-release/CMakeFiles/myc.dir/src/isalpha.c.o"
   "/home/hezhangxi/ClionProjects/myc/src/main.c" "/home/hezhangxi/ClionProjects/myc/cmake-build-release/CMakeFiles/myc.dir/src/main.c.o"
   "/home/hezhangxi/ClionProjects/myc/src/printstar.c" "/home/hezhangxi/ClionProjects/myc/cmake-build-release/CMakeFiles/myc.dir/src/printstar.c.o"

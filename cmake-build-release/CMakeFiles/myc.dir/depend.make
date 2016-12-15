@@ -9,8 +9,6 @@ CMakeFiles/myc.dir/src/enumc.c.o: ../src/enumc.c
 
 CMakeFiles/myc.dir/src/for.c.o: ../src/for.c
 
-CMakeFiles/myc.dir/src/graph.c.o: ../src/graph.c
-
 CMakeFiles/myc.dir/src/isalpha.c.o: ../src/isalpha.c
 
 CMakeFiles/myc.dir/src/main.c.o: ../header/myfuc.h

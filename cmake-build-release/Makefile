@@ -231,33 +231,6 @@ src/for.c.s:
 	$(MAKE) -f CMakeFiles/myc.dir/build.make CMakeFiles/myc.dir/src/for.c.s
 .PHONY : src/for.c.s
 
-src/graph.o: src/graph.c.o
-
-.PHONY : src/graph.o
-
-# target to build an object file
-src/graph.c.o:
-	$(MAKE) -f CMakeFiles/myc.dir/build.make CMakeFiles/myc.dir/src/graph.c.o
-.PHONY : src/graph.c.o
-
-src/graph.i: src/graph.c.i
-
-.PHONY : src/graph.i
-
-# target to preprocess a source file
-src/graph.c.i:
-	$(MAKE) -f CMakeFiles/myc.dir/build.make CMakeFiles/myc.dir/src/graph.c.i
-.PHONY : src/graph.c.i
-
-src/graph.s: src/graph.c.s
-
-.PHONY : src/graph.s
-
-# target to generate assembly for a file
-src/graph.c.s:
-	$(MAKE) -f CMakeFiles/myc.dir/build.make CMakeFiles/myc.dir/src/graph.c.s
-.PHONY : src/graph.c.s
-
 src/isalpha.o: src/isalpha.c.o
 
 .PHONY : src/isalpha.o
@@ -387,9 +360,6 @@ help:
 	@echo "... src/for.o"
 	@echo "... src/for.i"
 	@echo "... src/for.s"
-	@echo "... src/graph.o"
-	@echo "... src/graph.i"
-	@echo "... src/graph.s"
 	@echo "... src/isalpha.o"
 	@echo "... src/isalpha.i"
 	@echo "... src/isalpha.s"

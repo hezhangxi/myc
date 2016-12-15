@@ -99,9 +99,6 @@
 		<Unit filename="/home/hezhangxi/ClionProjects/myc/src/for.c">
 			<Option target="myc"/>
 		</Unit>
-		<Unit filename="/home/hezhangxi/ClionProjects/myc/src/graph.c">
-			<Option target="myc"/>
-		</Unit>
 		<Unit filename="/home/hezhangxi/ClionProjects/myc/src/isalpha.c">
 			<Option target="myc"/>
 		</Unit>
