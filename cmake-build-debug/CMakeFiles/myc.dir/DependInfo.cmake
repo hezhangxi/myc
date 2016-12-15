@@ -4,11 +4,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/hezhangxi/ClionProjects/myc/src/cal.c" "/home/hezhangxi/ClionProjects/myc/cmake-build-debug/CMakeFiles/myc.dir/src/cal.c.o"
-  "/home/hezhangxi/ClionProjects/myc/src/enumc.c" "/home/hezhangxi/ClionProjects/myc/cmake-build-debug/CMakeFiles/myc.dir/src/enumc.c.o"
-  "/home/hezhangxi/ClionProjects/myc/src/main.c" "/home/hezhangxi/ClionProjects/myc/cmake-build-debug/CMakeFiles/myc.dir/src/main.c.o"
-  "/home/hezhangxi/ClionProjects/myc/src/printstar.c" "/home/hezhangxi/ClionProjects/myc/cmake-build-debug/CMakeFiles/myc.dir/src/printstar.c.o"
-  "/home/hezhangxi/ClionProjects/myc/src/switch.c" "/home/hezhangxi/ClionProjects/myc/cmake-build-debug/CMakeFiles/myc.dir/src/switch.c.o"
+  "/home/martin/ClionProjects/myc/src/100and100.c" "/home/martin/ClionProjects/myc/cmake-build-debug/CMakeFiles/myc.dir/src/100and100.c.o"
+  "/home/martin/ClionProjects/myc/src/cal.c" "/home/martin/ClionProjects/myc/cmake-build-debug/CMakeFiles/myc.dir/src/cal.c.o"
+  "/home/martin/ClionProjects/myc/src/enumc.c" "/home/martin/ClionProjects/myc/cmake-build-debug/CMakeFiles/myc.dir/src/enumc.c.o"
+  "/home/martin/ClionProjects/myc/src/for.c" "/home/martin/ClionProjects/myc/cmake-build-debug/CMakeFiles/myc.dir/src/for.c.o"
+  "/home/martin/ClionProjects/myc/src/graph.c" "/home/martin/ClionProjects/myc/cmake-build-debug/CMakeFiles/myc.dir/src/graph.c.o"
+  "/home/martin/ClionProjects/myc/src/isalpha.c" "/home/martin/ClionProjects/myc/cmake-build-debug/CMakeFiles/myc.dir/src/isalpha.c.o"
+  "/home/martin/ClionProjects/myc/src/main.c" "/home/martin/ClionProjects/myc/cmake-build-debug/CMakeFiles/myc.dir/src/main.c.o"
+  "/home/martin/ClionProjects/myc/src/printstar.c" "/home/martin/ClionProjects/myc/cmake-build-debug/CMakeFiles/myc.dir/src/printstar.c.o"
+  "/home/martin/ClionProjects/myc/src/switch.c" "/home/martin/ClionProjects/myc/cmake-build-debug/CMakeFiles/myc.dir/src/switch.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

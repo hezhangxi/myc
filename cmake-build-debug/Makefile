@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/hezhangxi/下载/clion-2016.3/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/martin/下载/clion-2016.3/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/hezhangxi/下载/clion-2016.3/bin/cmake/bin/cmake -E remove -f
+RM = /home/martin/下载/clion-2016.3/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hezhangxi/ClionProjects/myc
+CMAKE_SOURCE_DIR = /home/martin/ClionProjects/myc
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hezhangxi/ClionProjects/myc/cmake-build-debug
+CMAKE_BINARY_DIR = /home/martin/ClionProjects/myc/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/hezhangxi/ClionProjects/myc/cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/hezhangxi/下载/clion-2016.3/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/martin/下载/clion-2016.3/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -70,7 +70,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/hezhangxi/下载/clion-2016.3/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/martin/下载/clion-2016.3/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hezhangxi/ClionProjects/myc/cmake-build-debug/CMakeFiles /home/hezhangxi/ClionProjects/myc/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/martin/ClionProjects/myc/cmake-build-debug/CMakeFiles /home/martin/ClionProjects/myc/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hezhangxi/ClionProjects/myc/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/martin/ClionProjects/myc/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -122,6 +122,33 @@ myc: cmake_check_build_system
 myc/fast:
 	$(MAKE) -f CMakeFiles/myc.dir/build.make CMakeFiles/myc.dir/build
 .PHONY : myc/fast
+
+src/100and100.o: src/100and100.c.o
+
+.PHONY : src/100and100.o
+
+# target to build an object file
+src/100and100.c.o:
+	$(MAKE) -f CMakeFiles/myc.dir/build.make CMakeFiles/myc.dir/src/100and100.c.o
+.PHONY : src/100and100.c.o
+
+src/100and100.i: src/100and100.c.i
+
+.PHONY : src/100and100.i
+
+# target to preprocess a source file
+src/100and100.c.i:
+	$(MAKE) -f CMakeFiles/myc.dir/build.make CMakeFiles/myc.dir/src/100and100.c.i
+.PHONY : src/100and100.c.i
+
+src/100and100.s: src/100and100.c.s
+
+.PHONY : src/100and100.s
+
+# target to generate assembly for a file
+src/100and100.c.s:
+	$(MAKE) -f CMakeFiles/myc.dir/build.make CMakeFiles/myc.dir/src/100and100.c.s
+.PHONY : src/100and100.c.s
 
 src/cal.o: src/cal.c.o
 
@@ -176,6 +203,87 @@ src/enumc.s: src/enumc.c.s
 src/enumc.c.s:
 	$(MAKE) -f CMakeFiles/myc.dir/build.make CMakeFiles/myc.dir/src/enumc.c.s
 .PHONY : src/enumc.c.s
+
+src/for.o: src/for.c.o
+
+.PHONY : src/for.o
+
+# target to build an object file
+src/for.c.o:
+	$(MAKE) -f CMakeFiles/myc.dir/build.make CMakeFiles/myc.dir/src/for.c.o
+.PHONY : src/for.c.o
+
+src/for.i: src/for.c.i
+
+.PHONY : src/for.i
+
+# target to preprocess a source file
+src/for.c.i:
+	$(MAKE) -f CMakeFiles/myc.dir/build.make CMakeFiles/myc.dir/src/for.c.i
+.PHONY : src/for.c.i
+
+src/for.s: src/for.c.s
+
+.PHONY : src/for.s
+
+# target to generate assembly for a file
+src/for.c.s:
+	$(MAKE) -f CMakeFiles/myc.dir/build.make CMakeFiles/myc.dir/src/for.c.s
+.PHONY : src/for.c.s
+
+src/graph.o: src/graph.c.o
+
+.PHONY : src/graph.o
+
+# target to build an object file
+src/graph.c.o:
+	$(MAKE) -f CMakeFiles/myc.dir/build.make CMakeFiles/myc.dir/src/graph.c.o
+.PHONY : src/graph.c.o
+
+src/graph.i: src/graph.c.i
+
+.PHONY : src/graph.i
+
+# target to preprocess a source file
+src/graph.c.i:
+	$(MAKE) -f CMakeFiles/myc.dir/build.make CMakeFiles/myc.dir/src/graph.c.i
+.PHONY : src/graph.c.i
+
+src/graph.s: src/graph.c.s
+
+.PHONY : src/graph.s
+
+# target to generate assembly for a file
+src/graph.c.s:
+	$(MAKE) -f CMakeFiles/myc.dir/build.make CMakeFiles/myc.dir/src/graph.c.s
+.PHONY : src/graph.c.s
+
+src/isalpha.o: src/isalpha.c.o
+
+.PHONY : src/isalpha.o
+
+# target to build an object file
+src/isalpha.c.o:
+	$(MAKE) -f CMakeFiles/myc.dir/build.make CMakeFiles/myc.dir/src/isalpha.c.o
+.PHONY : src/isalpha.c.o
+
+src/isalpha.i: src/isalpha.c.i
+
+.PHONY : src/isalpha.i
+
+# target to preprocess a source file
+src/isalpha.c.i:
+	$(MAKE) -f CMakeFiles/myc.dir/build.make CMakeFiles/myc.dir/src/isalpha.c.i
+.PHONY : src/isalpha.c.i
+
+src/isalpha.s: src/isalpha.c.s
+
+.PHONY : src/isalpha.s
+
+# target to generate assembly for a file
+src/isalpha.c.s:
+	$(MAKE) -f CMakeFiles/myc.dir/build.make CMakeFiles/myc.dir/src/isalpha.c.s
+.PHONY : src/isalpha.c.s
 
 src/main.o: src/main.c.o
 
@@ -267,12 +375,24 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... myc"
+	@echo "... src/100and100.o"
+	@echo "... src/100and100.i"
+	@echo "... src/100and100.s"
 	@echo "... src/cal.o"
 	@echo "... src/cal.i"
 	@echo "... src/cal.s"
 	@echo "... src/enumc.o"
 	@echo "... src/enumc.i"
 	@echo "... src/enumc.s"
+	@echo "... src/for.o"
+	@echo "... src/for.i"
+	@echo "... src/for.s"
+	@echo "... src/graph.o"
+	@echo "... src/graph.i"
+	@echo "... src/graph.s"
+	@echo "... src/isalpha.o"
+	@echo "... src/isalpha.i"
+	@echo "... src/isalpha.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

@@ -1,4 +1,4 @@
-/home/hezhangxi/下载/clion-2016.3/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/hezhangxi/ClionProjects/myc
+/home/martin/下载/clion-2016.3/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/martin/ClionProjects/myc
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/hezhangxi/ClionProjects/myc/cmake-build-debug
+-- Build files have been written to: /home/martin/ClionProjects/myc/cmake-build-debug

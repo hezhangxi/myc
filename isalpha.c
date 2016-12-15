@@ -1,4 +1,5 @@
-//测试程序
+//
+// Created by hezhangxi on 16-12-2.
 //
 
 /*
@@ -26,52 +27,45 @@
  *
  */
 
+
+
+
 #include <stdio.h>
+#include <stdlib.h>
 #include <ctype.h>
-#include "../header/myfuc.h"
 
-int main(void)
-//static int main(void)
+int isalphac (void)
 {
-    //printstar();
+    char str1[] = "1EH0cd%^&_~`Pcf79'23abCe45D6e6Fq@523&*%";
 
-
-    //cal();
-
-   // int num = 0;
-
-    /*
-    int i ;
-    do {
-     printf("请输入您的编号：");
-    scanf("%d",&i);
-    if(isalnum(i) == 0)
-        {
-            switchc(i);
-        }
-    else
+    int i = 0;
+    for (i = 0;str1[i] != 0;i++)  //字符串为空null时，其asc ii 值为0. 本句的意思是，当循环完字符串数组所有数时，则结束。
     {
-        printf("对不起，你输入有误，请输入整数\n");
+        if(isalpha(str1[i]))
+        {
+            if(isupper(str1[i]))
+            {
+
+                printf("%c 是个大写字母。\n",str1[i]);
+            } else
+            {
+
+                printf("%c 是个小写字母。\n",str1[i]);
+            }
+
+        }
+        else if(isalnum(str1[i]))
+        {
+            printf("%c 是个数字。\n",str1[i]);
+        }
+        else
+        {
+            printf("%c 是个特殊符号。\n",str1[i]);
+        }
+
     }
+
 
     return 0;
-    }
-        while(isalnum(i) == 0);
-        */
-
-
-    //switchc(i);
-   // enumc();
-
-   isalphac();
-   // forc();
-<<<<<<< HEAD
-   //	chickenc();
-=======
-
->>>>>>> origin/master
-   // graph();
-    chickenc();
 
 }
-

@@ -65,13 +65,8 @@ int main(void)
 
    isalphac();
    // forc();
-<<<<<<< HEAD
    //	chickenc();
-=======
-
->>>>>>> origin/master
    // graph();
-    chickenc();
 
 }
 
